@@ -1,0 +1,1079 @@
+body.light {
+    background-color: #ebeef1;
+}
+
+body.light #background{
+    border: none;
+}
+
+body.light footer{
+    color: rgb(32, 45, 55);
+}
+
+body.light footer a{
+    color: #758592
+}
+
+body.light #copyright{
+    color: #9AA4AF;
+    border-color: #DBE0E4;;
+}
+
+#ChampionsPage {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 1080px;
+    height: fit-content;
+}
+
+.nav2{
+    height: 43px;
+}
+#searchNav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+}
+
+#searchNav>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: 1080px;
+}
+
+#searchNav div img{
+    height: 47px;
+    width: 120px;
+    margin-right: 7px;
+}
+
+body #user-box.little{ /* per contrastare la specificità dell'altro file css */
+    height: 32px;
+    width: 950px;
+    border-radius: 5px;
+    margin: 0px;
+    background-color: white;
+    color: #9AA4AF;
+}
+
+#user-box.little a img{
+    height: 70%;
+    width: 70%;
+}
+
+#user-box.little a{
+    display: inline-flex;
+    height: 30px;
+    width: 60px;
+    position: absolute;
+    right: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+#user-box.little #region{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 100%;
+    padding: 0px;
+    width: 70px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(83, 131, 232);
+    background-color: rgb(227, 237, 245);
+    font-size: 12px;
+}
+
+#user-box.little #region .arrow{
+    border-left: 5px solid transparent; /* Lato sinistro trasparente */
+    border-right: 5px solid transparent; /* Lato destro trasparente */
+    border-top: 5px solid rgb(83, 131, 232); /* Lato superiore colorato */
+    margin-left: 7px;
+    width: 0px;
+}
+
+
+body #user-box.little #gameTag{
+    background-color: #ebeef1;
+}
+
+
+#user-box.little #search{
+   height: 100%;
+   flex-direction: row;
+   align-items: center;
+   justify-content: flex-start;
+   color: #9AA4AF;
+   font-size: 12px;
+}
+
+#user-box.little #search input{
+    color: black;
+    top: 3px;
+    right: 60px;
+    width: 84%;
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+
+#user-box.little #search input.writing{
+    background-color: white;
+}
+
+#user-box.little #RegionList{
+    top: 32px;
+    right: 880px;
+    border-radius: 5px;
+    width: 190px;
+    white-space: nowrap;
+}
+
+#user-box.little #RegionList img{
+   height: 60%;
+   width: 20%;
+}
+
+#user-box.little #RegionList span{
+    justify-content: flex-start;
+ }
+
+ #ChampsHeader{
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+body.dark #ChampsHeader{
+    background-color: #31313c;
+}
+
+body.light #ChampsHeader{
+    background-color: white;
+}
+
+#premiumBanner{
+    bottom: 7px;
+    right: -855px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 310px;
+    white-space: wrap;
+}
+body.dark #premiumBanner{
+    color: white;
+}
+
+body.light #premiumBanner{
+    color: rgb(32, 45, 55);
+}
+
+#premiumBanner img{
+    height: 33px;
+    width: 33px;
+    margin-right: 5px;
+}
+
+#ChampsHeaderContent{
+    width: fit-content;
+    margin-right: 540px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    font-size: 12px;
+    color: #777783;
+}
+
+#premium-beta{
+    color: white;
+}
+
+#premium-logo{
+    font-weight: 800;
+}
+
+@media(max-width: 1730px){
+    #premiumBanner{
+        display: none;
+    }
+}
+
+#ChampsHeaderTitle{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#ChampsHeaderTitle img{
+    width: 25px;
+    height: 25px;
+    margin-bottom: -7px;
+}
+
+body.dark #ChampsHeaderTitle{
+    color: white;
+}
+
+body.light #ChampsHeaderTitle{
+    color: #202D37;
+}
+
+.searchbar{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #5383E8;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.searchbar form{
+    width: 100%;
+}
+
+body.dark .searchbar{
+    background-color: #1C1C1F;;
+}
+
+.recentChamps{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    width: 32px;
+    border-radius: 20px;
+    background-color: rgb(37, 37, 37);
+    margin-top: -7px;
+}
+
+#searchImg {
+    background-color: rgb(83, 131, 232);
+    mask: url(https://s-lol-web.op.gg/images/icon/icon-search.svg);
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: contain;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.searchbar input{
+    background-color: inherit;
+    border: none;
+    font-weight: 700;
+    width: 73%;
+    outline: none;
+}
+
+body.dark .searchbar input{
+    color: white;
+}
+
+body.light .searchbar input{
+    color: black;
+}
+
+.searchbar input + span{
+    position: absolute;
+    top: 16px;
+    left: 61px;
+    font-weight: 700;
+    pointer-events: none; /* mouse non interagisce con questo */
+}
+
+#enter{
+    width: fit-content;
+    position: absolute;
+    top: 14px;
+    right: 20px;
+    border: 1px solid;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 5px 9px;
+    display: none;
+}
+
+#p{
+    width: fit-content;
+    position: absolute;
+    top: 19px;
+    right: 75px;
+    font-size: 12px;
+    display: none;
+}
+
+
+.searchbar input.writing + span{ /* + elemento subito dopo l'input, ~ tutti quelli dopo */ 
+    display: none;
+}
+
+.searchbar input.writing ~ #p, .searchbar input.writing ~ #enter{
+    display: inline;
+}
+
+#statsContainer{
+    width: 1080px;
+    height: fit-content;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+body.dark #statsContainer{
+    color: white;
+}
+
+body.ligth #statsContainer{
+    color: #202D37;
+}
+
+#filterBar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: #31313C;
+    border-radius: 5px;
+    position: relative;
+    justify-content: space-between;
+}
+
+body.dark #filterBar{
+    background-color: #31313C;
+}
+
+body.light #filterBar{
+    background-color: white;
+}
+
+#champContainer{
+    width: 1080px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    margin-top: 7px;
+}
+
+#champList{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+
+body.dark #champList{
+    background-color: #31313C;
+}
+
+body.light #champList{
+    background-color: white;
+}
+
+
+#filterSDP{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#filterBar section{
+    border-radius: 5px;
+    border: 1px solid;
+    height: 80%;
+    padding: 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: inherit;
+    font-size: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    position: relative;
+}
+
+body.dark #filterBar section{
+    border-color: #424254;
+}
+
+body.light #filterBar section{
+    border-color: #DBE0E4;
+}
+
+body.dark #filterBar section:hover{
+   background-color: #282830;
+}
+
+body.light #filterBar section:hover{
+    background-color: rgb(236, 235, 235);
+ }
+
+
+#filterBar #champRegion{
+    width: fit-content;
+    padding-right: 33px;
+}
+
+#filterBar section .arrow{
+    border-left: 5px solid transparent; /* Lato sinistro trasparente */
+    border-right: 5px solid transparent; /* Lato destro trasparente */
+    margin-left: 7px;
+    width: 0px;
+    position: absolute;
+    right: 15px;
+    top: 18px;
+}
+
+.arrow.close{
+    border-bottom: none;
+    border-top: 5px solid grey; /* Lato superiore colorato */  
+}
+
+.arrow.open{
+    border-top: none;
+    border-bottom: 5px solid grey; /* Lato inferiore colorato */  
+}
+
+.selectedOptionImg{
+    margin: 0px 4px 0 10px
+}
+
+#filterSDP #RegionList{
+    width: 110px;
+    top: 46px;
+    left: 5px;
+    border: none;
+    box-shadow: 0 10px 12px 0px rgba(0,0,0,0.2); /* Adds shadow effects around an element's frame*/
+                                                /* Y offset, X offset, blur radius, spread radius, color*/
+}
+
+#filterSDP #RegionList span{
+    width: 80%;
+}
+
+#division{
+    width: 155px;
+}
+
+#filterBar #version{
+    width: fit-content;
+    padding-right: 35px;
+}
+
+#version span{
+    margin-left: 10px;
+}
+
+#division .selectedOptionImg, #DivisionList span img{
+    width: 25px;
+    height: 25px;
+}
+
+
+#DivisionList{
+    display: inline-flex;
+    flex-direction: column;
+    position: absolute;
+    top: 47px;
+    left: 113px;
+    z-index: 1;
+    font-size: 14px;
+    height: 245px;
+    width: 155px;
+    border-radius: 5px;
+    overflow-y: auto; /* Abilita lo scorrimento verticale se il contenuto supera l'altezza */
+    box-shadow: 0 0px 12px 0px rgba(0,0,0,0.2); /* Adds shadow effects around an element's frame*/
+                                                /* Y offset, X offset, blur radius, spread radius, color*/
+}
+
+#DivisionList span{
+    display: inline-flex;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    align-items: center;
+    cursor: pointer;
+    width: 87%;
+    height: 40px;
+    font-weight: 400;
+    margin: 0px;
+    padding-left: 15px;
+    font-size: 12px;
+}
+
+#DivisionList span img{
+    margin-right: 10px;
+}
+
+body.dark #DivisionList span{
+    border-top: 1px solid #1C1C1F;
+}
+
+body.light #DivisionList span{
+    border-top: 1px solid #ebeef1;
+}
+
+body.dark #DivisionList span:hover{
+    background-color: #2b2b35;;
+}
+
+body.light #DivisionList span:hover{
+    background-color: rgb(236, 235, 235);
+}
+
+body.dark #DivisionList{
+    background-color: #31313C;
+    color: #B7B7C9;
+}
+
+body.light #DivisionList{
+    background-color: white;
+    color: #44515C;
+}
+
+#DivisionList.hidden{
+    display: none;
+}
+
+
+#VersionList{
+    display: inline-flex;
+    flex-direction: column;
+    position: absolute;
+    top: 47px;
+    left: 5px;
+    z-index: 1;
+    font-size: 14px;
+    height: fit-content;
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0 0px 12px 0px rgba(0,0,0,0.2); /* Adds shadow effects around an element's frame*/
+                                                /* Y offset, X offset, blur radius, spread radius, color*/
+}
+
+#VersionList span{
+    display: inline-flex;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    align-items: center;
+    cursor: pointer;
+    width: 87%;
+    height: 40px;
+    font-weight: 400;
+    margin: 0px;
+    padding-left: 15px;
+    font-size: 12px;
+}
+
+
+body.dark #VersionList span{
+    border-top: 1px solid #1C1C1F;
+}
+
+body.light #VersionList span{
+    border-top: 1px solid #ebeef1;
+}
+
+body.dark #VersionList span:hover{
+    background-color: #2b2b35;;
+}
+
+body.light #VersionList span:hover{
+    background-color: rgb(236, 235, 235);
+}
+
+body.dark #VersionList{
+    background-color: #31313C;
+    color: #B7B7C9;
+}
+
+body.light #VersionList{
+    background-color: white;
+    color: #44515C;
+}
+
+#VersionList.hidden{
+    display: none;
+}
+
+#filterRole{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    margin-right: 4px;
+}
+
+#filterRole span{
+    height: 80%;
+    padding: 0px;
+    width: 104px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: inherit;
+    font-size: 14px;
+    margin: 0px;
+    cursor: pointer;
+    display: inline-flex;
+    position: relative;
+    border-right: 1px solid;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+
+#filterRole span[data-role="all"]{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-left: 1px solid;
+}
+
+#filterRole span[data-role="support"]{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+
+body.dark #filterRole span{
+    border-color: #424254;
+}
+
+body.light #filterRole span{
+    border-color: #DBE0E4;
+}
+
+body.dark #filterRole span:hover{
+   background-color: #282830;
+}
+
+body.light #filterRole span:hover{
+    background-color: rgb(236, 235, 235);
+ }
+
+ body #filterRole span.selected{
+    font-weight: 700;
+    background-color: #5383E8;
+    border: 1px solid #5383E8;
+    color: white;
+    cursor: auto;
+  }
+
+  body #filterRole span.selected:hover{
+    background-color: #5383E8;;
+  }
+
+  .searchbar form input[type="text"]{
+    margin-top: 15px;
+    font-size: 16px;
+  }
+
+  .champ{
+    width: 190px;
+    height: 345px;
+    background-image: url(https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Aatrox_0.jpg);
+    background-size: 110%;
+    background-position-x: -10px;
+    background-position-y: -10px;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    margin-left: 22px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 10px;
+  }
+
+  .champ.hidden{
+    display: none;
+  }
+
+  .champName{
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+    height: 50px;
+    background-color: #5382e892;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 180px;
+    z-index: 1;
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+
+  .champ:hover{
+    filter: brightness(130%);
+    transform: scale(0.95);
+  }
+
+  /*******champ page********/
+
+  #mainContent{
+    width: 1080px;
+    height: fit-content;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+
+  #champImage{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  #champImageContainer{
+    margin-top: 100px;
+  }
+  #champImageShadow{
+    position: absolute;
+    bottom: 10px;
+    width: 96.3%;
+    left: 0px;
+  }
+
+  body.light #champImageShadow{
+    box-shadow: 0px 5px 100px 130px #ebeef1;
+  }
+
+  body.dark #champImageShadow{
+    box-shadow: 0px 5px 100px 130px #1C1C1F;
+  }
+
+  #champImageShadow2{
+    position: absolute;
+    top: -30px;
+    width: 96.3%;
+    left: 40px;
+  }
+
+  body.light #champImageShadow2{
+    box-shadow: 0px 5px 30px 60px #ebeef1;
+  }
+
+  body.dark #champImageShadow2{
+    box-shadow: 0px 5px 30px 60px #1C1C1F;
+  }
+
+  #champImageContainer{
+    position: relative;
+  }
+
+  #champTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: transparent;
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: italic;
+    z-index: 2;
+    margin-top: -150px;
+    position:relative;
+  }
+
+  body.dark #champTitle{
+    color: white;
+  }
+
+  body.light #champTitle{
+    color: black;
+  }
+  
+  #name{
+    font-size: 80px;
+  }
+
+  #champInfo{
+    margin-top: 40px;
+    z-index: 2;
+    position: relative;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: lighter;
+  }
+
+  
+  body.dark #champInfo{
+    color: white;
+  }
+
+  body.light #champInfo{
+    color: black;
+  }
+
+  #tags{
+    display: inline-flex;
+    flex-direction: column;
+    font-weight: bolder;
+    margin-top: 25px;
+    border-right: 1px solid grey;
+    width: 20%;
+  }
+
+  #champInfo h2{
+    margin: 0px 0px 15px 0;
+    font-size: 25px;
+    background-color: #5383E8;
+    padding: 4px 15px;
+    width: fit-content;
+    border-radius: 10px;
+    color: white;
+  }
+
+  #tags span{
+    margin-bottom: 5px;
+  }
+
+  #lore{
+    display: inline-flex;
+    flex-direction: column;
+    font-weight: bolder;
+    margin-top: 25px;
+    margin-left:25px;
+    width: 75%;
+  }
+
+  #allytips, #enemytips{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    width: 100%;
+  }
+
+  #allytips span, #enemytips span{
+    margin-bottom: 5px;
+  }
+
+  #abilities{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  #abilitiesImgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 20px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+  }
+
+  #abilitiesImgs img{
+    border-radius: 5px;
+    height: 75px;
+    width: 75px;
+    cursor: pointer;
+  }
+
+  #abilitiesImgs img.selected{
+    border: 4px solid #5383E8;
+  }
+
+  #abilitiesImgs img:hover{
+    filter: brightness(130%);
+    transform: scale(0.95);
+  }
+
+  .abilityInfo{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border: 1px solid grey;
+    padding: 10px;
+  }
+
+  .abilityInfo.hidden{
+    display: none;
+  }
+
+  .abilityPosition{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .abilityName{
+    font-weight: bolder;
+    font-size: 18px;
+    color:rgb(83, 131, 232);
+    margin-bottom: 10px;
+  }
+  #champForm input{
+    display: none;
+  }
+
+  #commentSection{
+    width: 1080px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  body.dark #commentSection{
+    color: white;
+  }
+
+  body.light #commentSection{
+    color: black;
+  }
+
+  #commentForm{
+    width: fit-content;
+    position: relative;
+  }
+
+  #csTitle{
+    height: 250px;
+    padding-bottom: 0px;
+    width: 800px;
+    padding-left: 20px;
+  }
+
+  body.dark #csTitle{
+    background-color: #31313C;
+  }
+
+  body.light #csTitle{
+    background-color: white;
+  }
+
+  #comment{
+    display: flex;
+    color: white;
+    border-radius: 3px;
+    line-height: top;
+    height: 75px;
+    width: 750px;
+    resize: none;
+    font-size: 18px;
+  }
+
+  body.dark #comment{
+    background-color: #1C1C1F;
+    color: white;
+  }
+
+  body.light #comment{
+    background-color: #ebeef1;
+    color: black;
+  }
+
+  #submitComment{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5383E8;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 10px 45px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    bottom: -45px;
+    right: 0px;;
+  }
+
+  #submitComment:hover{
+    filter: brightness(120%);
+  }
+
+  .newComment{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 800px;
+    margin-top: 1px;
+    padding: 10px;
+  }
+
+  body.dark .newComment{
+    background-color: #282830;
+    color: #B7B7C9;
+  }
+
+  body.light .newComment{
+    background-color: white;
+    color: rgb(28, 28, 28);
+  }
+
+  .newCommentHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  body.dark .newCommentHeader{
+    color: white;
+  }
+
+  body.light .newCommentHeader{
+    color: black;
+  }
+
+  .newCommentContent{
+    overflow-wrap: break-word; 
+    width: 100%;
+  }
+
+  .newCommentID{
+    display: none;
+  }
+
+  .newCommentUser{
+    margin-left: 20px;
+  }
+
+  .newCommentTime{
+    margin-right: 20px;
+  }
+
+  .newCommentRemoveButton{
+    color: white;
+    font-weight: bold;
+    background-color: #5383E8;
+    margin-top: 5px;
+    margin-left: 640px;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  
