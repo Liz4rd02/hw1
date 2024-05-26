@@ -129,11 +129,6 @@ function changeRegion(event){
     const RegionList = event.currentTarget.parentNode;
 
     if(RegionList.parentNode.classList.contains('little')){
-        /* SE SONO NELLA PAGINA LOL CHAMPIONS*/
-        /* cutSelectedRegion = cutSelectedRegion.replace(/\d/, '') */
-        /* /\d/ è un meta-carattere che corrisponde a qualsiasi cifra numerica in una stringa */
-        /* altrimenti avrei potuto usare il medoto replace per ogni cifra numerica con un ciclo*/
-        /* Oppure mi accorgo che nei nameTag ci sono solo '1' o '2', quindi rimpiazzo solo questi*/
         let cutSelectedRegion = gameTagMap[selectedRegion];
         cutSelectedRegion = cutSelectedRegion.replace('1', '');
         cutSelectedRegion = cutSelectedRegion.replace('2', '');
@@ -262,17 +257,15 @@ function extractSummonerInfo(summonerName) {
     const tagIndex = summonerName.indexOf('#');
   
     if (tagIndex !== -1) {
-      const name = summonerName.substring(0, tagIndex).trim();  //trim rimuove gli spazi iniziali
+      const name = summonerName.substring(0, tagIndex).trim();  
       const tag = summonerName.substring(tagIndex + 1).trim();
   
       return { name, tag };
     } else {
-      // Se il carattere "#" non è presente, considera l'intera stringa come nome e inserisco il tag di default
       const name = summonerName.trim();
       const defaultGameTag = document.querySelector('#gameTag').textContent.replace('#', '');
       const tag = defaultGameTag;
   
-      // Restituisci il nome e il tag
       return { name, tag };
     }
   }
@@ -283,11 +276,11 @@ function convertTimeStampToStringData(timeStamp) {
 }
 
 function secondiAMinutiESecondi(secondi) {
-  // Calcola i minuti
+
   const minuti = Math.floor(secondi / 60);
-  // Calcola i secondi rimanenti
+
   const secondiRimanenti = secondi % 60;
-  // Restituisci una stringa formattata
+
   return minuti + 'm ' + secondiRimanenti + 's';
 }
 
@@ -322,8 +315,7 @@ async function onJson(json) {
         console.log('La richiesta è stata completata con successo!');
         const summonerPuuid = json["puuid"];
         console.log(summonerPuuid);
-        //document.cookie = "opgg_currentSummoner=" + gameName;
-    
+
         const summonerForm = document.querySelector("#summonerForm");
         console.log(summonerForm);
         summonerForm.puuid.value = summonerPuuid;
