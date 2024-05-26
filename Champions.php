@@ -56,14 +56,6 @@
                             </div>
                             </div>
                             <img src="https://s-lol-web.op.gg/images/icon/chatbot.gif" id="FAQ">
-                            <!--
-                            <div id="FAQ-info" class="hidden">
-                                <span>Contact Us</span>
-                                <a href="https://opgg.helpscoutdocs.com/collection/1-league-of-legends">Help Center</a>
-                            </div>
-
-                            SOSTITUITO CON CREAZIONE TRAMITE document.createElement()
-                            -->
                             <img src="https://s-lol-web.op.gg/images/icon/icon-darkmode.svg" id="darkmode">
                             <div id="triangle" class="hidden"></div>
                             <div id="colorModeInfo" class="hidden">Dark mode</div>
