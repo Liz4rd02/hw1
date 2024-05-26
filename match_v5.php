@@ -15,6 +15,5 @@
 
     curl_close($curl);
 
-    // Gestisci la risposta
     echo $response;
 ?>
