@@ -212,9 +212,9 @@ body.light #background{
 #triangle{
     width: 0;
     height: 0;
-    border-left: 15px solid transparent; /* Lato sinistro trasparente */
-    border-right: 15px solid transparent; /* Lato destro trasparente */
-    border-bottom: 15px solid black; /* Lato inferiore colorato */
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent; 
+    border-bottom: 15px solid black; 
     position: absolute;
     top: 33px;
     right: 180px;
@@ -255,14 +255,7 @@ body.light #user-box div span{
     color: #9AA4AF;
 }
 
-/*
-body.dark #user-box>span{
-    color: black;
-}
 
-body.light #user-box span{
-    color: white;
-}*/
 
 #region{
     display: inline-flex;
@@ -292,9 +285,8 @@ body.light #user-box span{
     width: 210px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    overflow-y: auto; /* Abilita lo scorrimento verticale se il contenuto supera l'altezza */
-    box-shadow: 0 0px 12px 0px rgba(0,0,0,0.2); /* Adds shadow effects around an element's frame*/
-                                                /* Y offset, X offset, blur radius, spread radius, color*/
+    overflow-y: auto; 
+    box-shadow: 0 0px 12px 0px rgba(0,0,0,0.2); 
 }
 
 #RegionList span{
@@ -386,7 +378,7 @@ body.light #RegionList{
     padding-top: 5px;
     padding-bottom: 2px;
     width: 59%;
-    outline: none;  /* Rimuove il bordo quando l'input viene cliccato */
+    outline: none; 
 }
 
 input[type="submit"]{
@@ -474,7 +466,7 @@ body.light #gameTag{
 
 
 
-select:focus {          /*elimina il bordo quando apro il menu a tendina*/
+select:focus {       
     outline: none;
 }
 
@@ -623,8 +615,7 @@ body.light #rect{
     border-radius: 0 0 5px 5px;
     width: 350px;
     height: fit-content;
-    box-shadow: 0px 5px 12px 0 rgba(0,0,0,0.5); /* Adds shadow effects around an element's frame*/
-                                                  /* Y offset, X offset, blur and spread radius, color*/
+    box-shadow: 0px 5px 12px 0 rgba(0,0,0,0.5);
 }
 
 #menu .site-box{
@@ -1016,9 +1007,9 @@ body.light #FAQ-info a{
 .arrow{
     width: 0;
     height: 0;
-    border-left: 5px solid transparent; /* Lato sinistro trasparente */
-    border-right: 5px solid transparent; /* Lato destro trasparente */
-    border-top: 5px solid #C3CBD1;; /* Lato superiore colorato */
+    border-left: 5px solid transparent; 
+    border-right: 5px solid transparent; 
+    border-top: 5px solid #C3CBD1;; 
     margin-left: 8px;
 }
 
@@ -1034,7 +1025,7 @@ body.light #FAQ-info a{
     height: 245px;
     width: 135px;
     padding: 5px 0px 5px 0px;
-    overflow-y: auto; /* Abilita lo scorrimento verticale se il contenuto supera l'altezza */
+    overflow-y: auto; 
 }
 
 #LanguageList span{
@@ -1158,9 +1149,9 @@ body.light #LanguageList{
 #OauthApiMenuButton .arrow{
     width: 0;
     height: 0;
-    border-top: 20px solid transparent; /* Lato sinistro trasparente */
-    border-bottom: 20px solid transparent; /* Lato destro trasparente */
-    border-right: 20px solid #C3CBD1;; /* Lato superiore colorato */
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent; 
+    border-right: 20px solid #C3CBD1;
     border-left: 0px;
     margin: 0px;
 }
@@ -1211,177 +1202,4 @@ body.light #LanguageList{
         }
     }
 
-    /*
-@media (max-width: 600px){
-    article{
-        min-width: none;  
-        width: 100vw;
-    }
-    
-    .site-box, #FAQ, #darkmode{
-        display: none;
-        flex-grow: 0;
-    }
-    
-    .other-sites{
-        flex-grow: 0;
-        width: fit-content;
-        
-    }
-    
-    #header-ending{
-        flex-grow: 1;
-        margin-right: 0px;
-    }
-    
-    .nav2 img{
-        margin-left: 13px;
-        margin-top: 0px;
-    }
-    
-    .nav2{
-        justify-content: flex-start;
-        align-items: center;
-    }
-    
-    
-    article{
-        width: 100vw;  
-        min-width: 750px;
-    }
-    
-    #background{
-        align-items: center;
-    }
-    
-    
-    #rect2{
-        flex-direction: column;
-        height: 1200px;
-        width: 100vw;
-        min-width: 520px;
-    }
-    
-    #rect{
-        width: 100vw;
-        min-width: 520px;
-    }
-    
-    footer{
-        flex-direction: column;
-        width: fit-content;
-    }
-    
-    #copyright{
-        width: 100vw;
-    }
-    
-    body, html{
-        width: 100vw;
-        padding: 0px;
-        margin: 0px;
-    }
-    
-    #opgg-desktop, #player-of-the-week{
-        width: 100%;
-        min-width: 520px;
-    }
-    #user-box{
-        width: 100vw;
-        min-width: 520px;
-    }
-    
-    #region input, #seatch input{
-        width: 70%;
-    }
-
-    #player-of-the-week{
-        margin-top: 50px;
-    }
-
-    header{
-        height: 220px;
-    }
-
-    .nav1{
-        height: 30%;
-    }
-
-    .nav2{
-        height: 70%;
-        flex-wrap: wrap;
-    }
-
-    .nav1 img{
-        height: 80%;
-        margin: 0px;
-    }
-
-    .nav1 h1{
-        font-size: 20px;
-        margin-right: 10px;
-    }
-
-    .nav1 a{
-        height: 80%;
-        padding: 0px;
-        width: 20%;
-    }
-
-    #opgg-logo{
-        width: 100%;
-        height: 100%;
-        margin-left: 0px;
-        padding: 0px;
-    }
-
-    #social-media{
-        flex-direction: column;
-        top:0px;
-        
-    }
-
-    #social-media a{
-        margin-top: 10px;
-    }
-
-    .nav2 a{
-        font-size: 25px;
-        height: 45%;
-    }
-
-    .nav2 a:hover, #current-page{
-        border-bottom-width: 6px;
-    }
-
-    .nav2 img{
-       height: 40%;
-       width: 8%;
-       margin-left: auto;
-    }
-
-    #mypage{
-        margin-left: -65px;
-        padding-left: 65px;
-    }
-
-    #lingua, #scegli{
-        height: 100%;
-        font-size: 22px;
-        margin-right: 0px;
-    }
-
-    #login{
-        padding: 10px 32px;
-        font-size: 22px;
-    }
-
-    #menu-img{
-        margin-right: 0px;
-    }
-
-    #mypage{
-        align-items: center;
-    }
-}
-*/
+ 
