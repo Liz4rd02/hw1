@@ -53,7 +53,7 @@ body.light #copyright{
     margin-right: 7px;
 }
 
-body #user-box.little{ /* per contrastare la specificità dell'altro file css */
+body #user-box.little{ 
     height: 32px;
     width: 950px;
     border-radius: 5px;
@@ -92,9 +92,9 @@ body #user-box.little{ /* per contrastare la specificità dell'altro file css */
 }
 
 #user-box.little #region .arrow{
-    border-left: 5px solid transparent; /* Lato sinistro trasparente */
-    border-right: 5px solid transparent; /* Lato destro trasparente */
-    border-top: 5px solid rgb(83, 131, 232); /* Lato superiore colorato */
+    border-left: 5px solid transparent; 
+    border-right: 5px solid transparent; 
+    border-top: 5px solid rgb(83, 131, 232); 
     margin-left: 7px;
     width: 0px;
 }
@@ -296,7 +296,7 @@ body.light .searchbar input{
     top: 16px;
     left: 61px;
     font-weight: 700;
-    pointer-events: none; /* mouse non interagisce con questo */
+    pointer-events: none; 
 }
 
 #enter{
@@ -321,7 +321,7 @@ body.light .searchbar input{
 }
 
 
-.searchbar input.writing + span{ /* + elemento subito dopo l'input, ~ tutti quelli dopo */ 
+.searchbar input.writing + span{ 
     display: none;
 }
 
@@ -435,8 +435,8 @@ body.light #filterBar section:hover{
 }
 
 #filterBar section .arrow{
-    border-left: 5px solid transparent; /* Lato sinistro trasparente */
-    border-right: 5px solid transparent; /* Lato destro trasparente */
+    border-left: 5px solid transparent; 
+    border-right: 5px solid transparent; 
     margin-left: 7px;
     width: 0px;
     position: absolute;
@@ -446,12 +446,12 @@ body.light #filterBar section:hover{
 
 .arrow.close{
     border-bottom: none;
-    border-top: 5px solid grey; /* Lato superiore colorato */  
+    border-top: 5px solid grey;  
 }
 
 .arrow.open{
     border-top: none;
-    border-bottom: 5px solid grey; /* Lato inferiore colorato */  
+    border-bottom: 5px solid grey;  
 }
 
 .selectedOptionImg{
@@ -463,8 +463,7 @@ body.light #filterBar section:hover{
     top: 46px;
     left: 5px;
     border: none;
-    box-shadow: 0 10px 12px 0px rgba(0,0,0,0.2); /* Adds shadow effects around an element's frame*/
-                                                /* Y offset, X offset, blur radius, spread radius, color*/
+    box-shadow: 0 10px 12px 0px rgba(0,0,0,0.2); 
 }
 
 #filterSDP #RegionList span{
@@ -501,9 +500,8 @@ body.light #filterBar section:hover{
     height: 245px;
     width: 155px;
     border-radius: 5px;
-    overflow-y: auto; /* Abilita lo scorrimento verticale se il contenuto supera l'altezza */
-    box-shadow: 0 0px 12px 0px rgba(0,0,0,0.2); /* Adds shadow effects around an element's frame*/
-                                                /* Y offset, X offset, blur radius, spread radius, color*/
+    overflow-y: auto; 
+    box-shadow: 0 0px 12px 0px rgba(0,0,0,0.2); 
 }
 
 #DivisionList span{
@@ -566,8 +564,7 @@ body.light #DivisionList{
     height: fit-content;
     width: 150px;
     border-radius: 5px;
-    box-shadow: 0 0px 12px 0px rgba(0,0,0,0.2); /* Adds shadow effects around an element's frame*/
-                                                /* Y offset, X offset, blur radius, spread radius, color*/
+    box-shadow: 0 0px 12px 0px rgba(0,0,0,0.2); 
 }
 
 #VersionList span{
