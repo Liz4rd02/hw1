@@ -764,11 +764,6 @@ async function onJsonMatchByID(json){
   
   //ELO MEDIO **************
   
-  //function wait(milliseconds) {
-  //  return new Promise(resolve => setTimeout(resolve, milliseconds));
-  //}
-  //await wait(0); 
-  
   let totalEloInTheGame = 0;
 
   async function getPlayerElo(playerInfo){
@@ -876,10 +871,6 @@ async function onJsonMatchv5(json) {
   console.log(json);
 
   for(matchID of json){
-    //const response = await fetch('http://127.0.0.1/matchById.php?matchID=' + matchID);
-    //const match = await response.json();
-    //await onJsonMatchByID(match);
-
     const response = await fetch('http://127.0.0.1/matchById.php?matchID=' + matchID);
     const match = await response.json();
     await onJsonMatchByID(match);
