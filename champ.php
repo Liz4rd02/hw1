@@ -22,12 +22,6 @@
     $res = mysqli_query($conn, $query);
     
 ?>
-<!--oltre alla sessione per il login
-prendo i dati ottenuti da una get con $_GET["champ"] dove è presente il nome del campione
-inviati dall'utente che ha scelto un certo campione.
-Col nome del campione faccio la fetch per i dati json di quel campione
-e modifico i valori della pagina di conseguenza-->
-
 <html>
     <head>
         <title>
